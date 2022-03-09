@@ -1,0 +1,8 @@
+name: eg_00_seldon_mlflow
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - scikit-learn=0.19.1
+  - pip:
+      - mlflow>=1.0
